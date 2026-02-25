@@ -1,0 +1,90 @@
+- title: 基本信息
+  type: map
+  contents:
+    - name: 姓名
+      value: 陈文潇
+    - name: 职位
+      value: 华为技术专家（天才少年计划）
+    - name: 邮箱
+      value: chenwenxiaolive@gmail.com
+
+- title: 教育背景
+  type: time_table
+  contents:
+    - title: 博士 · 计算机科学与技术
+      institution: 清华大学
+      year: 2017 - 2022
+      description:
+        - 导师：裴丹教授
+        - 研究方向：智能运维、异常检测、深度生成模型
+    - title: 学士 · 计算机科学与技术
+      institution: 清华大学
+      year: 2013 - 2017
+      description:
+        - 优秀毕业生 · 学业优秀奖 · 国家奖学金
+
+- title: 工作经历
+  type: time_table
+  contents:
+    - title: 技术专家（天才少年计划）
+      institution: 华为技术有限公司
+      year: 2022 - 至今
+      description:
+        - 主导智能计算集群系统和 LLM 基础设施的研发工作
+        - 3 年内获得 15 项公司级奖励，包括总裁个人奖-杰出工程师（2024）
+    - title: 架构师
+      institution: openFuyao 社区
+      year: 2024 - 至今
+      description:
+        - 主导昇腾 NPU 的 AI 推理基础设施建设
+        - 攻克 PD 分离架构、分布式 KVCache 传输等关键技术
+        - 推动 DeepSeek 等主流大模型在昇腾硬件上的高效部署
+
+- title: 荣誉奖项
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - 华为杰出专家
+        - 华为极客大赛二等奖（#13/10万）
+    - year: 2024
+      items:
+        - 总裁个人奖-杰出工程师
+        - openFuyao 社区架构师
+    - year: 2022
+      items:
+        - 华为天才少年计划
+    - year: 2017
+      items:
+        - 清华大学优秀毕业生
+    - year: 2012
+      items:
+        - NOI 金牌（全国青少年信息学奥林匹克竞赛）
+
+- title: 学术成果
+  type: map
+  contents:
+    - name: Google Scholar 引用
+      value: 1757+
+    - name: h-index
+      value: "10"
+    - name: 学术论文
+      value: 15+
+    - name: 专利申请
+      value: "4"
+
+- title: 技能特长
+  type: nested_list
+  contents:
+    - title: 竞赛编程
+      items:
+        - Codeforces Master (2299)
+        - NOI 2012 金牌
+    - title: 研究领域
+      items:
+        - LLM 推理优化
+        - 智能运维 AIOps
+        - 深度生成模型
+        - 分布式系统
+        - AI Infra
+        - AI Agent
