@@ -471,7 +471,18 @@
         }
 
         .hero {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
           padding-bottom: 28px;
+        }
+
+        .hero .stats-row {
+          justify-content: center;
+        }
+
+        .hero .hero-contact {
+          justify-content: center;
         }
 
         .proj-grid {
@@ -487,7 +498,9 @@
   <body>
     <main class="shell">
       <!-- Hero -->
-      <section class="hero">
+      <section class="hero" style="display:flex;gap:32px;align-items:flex-start">
+        <img src="photo.jpg" alt="陈文潇" style="width:130px;height:auto;border-radius:14px;border:2px solid rgba(255,255,255,0.2);flex-shrink:0" />
+        <div>
         <p class="eyebrow">AI Infra Architect &middot; Huawei Top Minds</p>
         <h1 class="title">陈文潇</h1>
         <p class="subtitle">
@@ -515,6 +528,7 @@
             <span class="stat-num">4</span>
             <span class="stat-label">专利申请</span>
           </div>
+        </div>
         </div>
       </section>
 
