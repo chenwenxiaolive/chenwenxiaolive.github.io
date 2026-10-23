@@ -120,7 +120,10 @@
         "description": "Prefill–decode disaggregation, distributed KVCache transfer, and AscendCacheTier for cloud-native deployment of models including DeepSeek on Ascend 910B.",
         "result": "60–80% improvement in Store interface performance, in collaboration with the Mooncake community.",
         "period_record": "2024–present"
-      }
+      },
+      "url": "https://www.openfuyao.cn/zh/",
+      "link_checked_on": "2026-10-23",
+      "link_note": "Official openFuyao community website."
     },
     {
       "name": "LogAnalyzer",
@@ -133,7 +136,10 @@
         "description": "LLM-driven diagnosis for clusters with over 10,000 GPUs or NPUs. Deployed on iFLYTEK’s X1 cluster and jointly announced at Huawei Connect 2025.",
         "result": "87.5% overall diagnostic accuracy. Diagnosis time reduced from days to minutes.",
         "period_record": "Nov 2024–present"
-      }
+      },
+      "url": "https://finance.sina.com.cn/roll/2025-09-25/doc-infrtinh7060489.shtml",
+      "link_checked_on": "2026-10-23",
+      "link_note": "Huawei Computing announcement dated September 25, 2025, syndicated by Sina Finance. The announcement reports 88% accuracy; the existing resume records 87.5%, which is preserved."
     },
     {
       "name": "LogGPT",
@@ -202,7 +208,10 @@
         "authors": "H Xu*, W Chen*, N Zhao, Z Li, J Bu, Z Li, Y Liu, Y Zhao, D Pei, Y Feng, J Chen, Z Wang, H Qiao",
         "citations": 1518,
         "collaboration": "Alibaba 工业合作",
-        "collaboration_en": "Alibaba industry collaboration"
+        "collaboration_en": "Alibaba industry collaboration",
+        "url": "https://arxiv.org/abs/1802.03903",
+        "link_checked_on": "2026-10-23",
+        "link_source": "https://arxiv.org/abs/1802.03903"
       },
       {
         "venue": "INFOCOM 2019",
@@ -210,7 +219,10 @@
         "authors": "W Chen, H Xu, Z Li, D Pei, J Chen, H Qiao, Y Feng, Z Wang",
         "citations": 131,
         "collaboration": "Alibaba 工业合作",
-        "collaboration_en": "Alibaba industry collaboration"
+        "collaboration_en": "Alibaba industry collaboration",
+        "url": "https://netman.aiops.org/wp-content/uploads/2019/04/chenwenxiao_infocom2019.pdf",
+        "link_checked_on": "2026-10-23",
+        "link_source": "https://netman.aiops.org/wp-content/uploads/2019/04/chenwenxiao_infocom2019.pdf"
       },
       {
         "venue": "IPCCC 2018",
@@ -218,7 +230,10 @@
         "authors": "Z Li, W Chen, D Pei",
         "citations": 129,
         "collaboration": "Alibaba 工业合作",
-        "collaboration_en": "Alibaba industry collaboration"
+        "collaboration_en": "Alibaba industry collaboration",
+        "url": "https://netman.aiops.org/wp-content/uploads/2018/12/camera_ready.pdf",
+        "link_checked_on": "2026-10-23",
+        "link_source": "https://netman.aiops.org/wp-content/uploads/2018/12/camera_ready.pdf"
       },
       {
         "venue": "WWW 2023",
@@ -226,7 +241,10 @@
         "authors": "Z Xie, H Xu, W Chen, W Li, H Jiang, L Su, H Wang, D Pei",
         "citations": 100,
         "collaboration": "",
-        "collaboration_en": ""
+        "collaboration_en": "",
+        "url": "https://netman.aiops.org/wp-content/uploads/2023/02/TraceVAE.pdf",
+        "link_checked_on": "2026-10-23",
+        "link_source": "https://netman.aiops.org/wp-content/uploads/2023/02/TraceVAE.pdf"
       },
       {
         "venue": "FSE 2024",
@@ -234,7 +252,10 @@
         "authors": "Z Yao, C Pei, W Chen, H Wang, L Su, H Jiang, Z Xie, X Nie, D Pei",
         "citations": 38,
         "collaboration": "eBay 工业合作",
-        "collaboration_en": "eBay industry collaboration"
+        "collaboration_en": "eBay industry collaboration",
+        "url": "https://netman.aiops.org/wp-content/uploads/2024/07/Chain-of-Event_Interpretable-Root-Cause-Analysis-for-MicroservicesFSE24-Camera-Ready.pdf",
+        "link_checked_on": "2026-10-23",
+        "link_source": "https://netman.aiops.org/wp-content/uploads/2024/07/Chain-of-Event_Interpretable-Root-Cause-Analysis-for-MicroservicesFSE24-Camera-Ready.pdf"
       },
       {
         "venue": "ICASSP 2016",
@@ -242,7 +263,11 @@
         "authors": "X Li, H Xianyu, J Tian, W Chen, F Meng, M Xu, L Cai",
         "citations": 54,
         "collaboration": "",
-        "collaboration_en": ""
+        "collaboration_en": "",
+        "url": "https://doi.org/10.1109/ICASSP.2016.7471734",
+        "link_checked_on": "2026-10-23",
+        "link_source": "https://api.crossref.org/works/10.1109/ICASSP.2016.7471734",
+        "link_note": "Title, authors, and DOI verified from IEEE metadata deposited with Crossref; IEEE Xplore may require browser verification."
       }
     ]
   },

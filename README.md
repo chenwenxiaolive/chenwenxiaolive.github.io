@@ -14,14 +14,16 @@ All public page copy, navigation, accessible labels, dates, and contribution tit
 
 ## Page structure
 
-1. An editorial introduction, current affiliation, portrait, and the exact IQuest-Q1 credit.
-2. Selected work, with original vector covers and concrete project outcomes.
-3. Employment and education in chronological order, newest first.
-4. Research metrics and seven selected publications.
+1. An editorial introduction with Core Researcher · IQuest Models · IQuestLab directly below the name, a portrait, and the exact IQuest-Q1 credit.
+2. Research metrics and seven selected publications, each with a verified title link.
+3. Selected work, with project names, concrete outcomes, compact original vector covers, and verified public project links.
+4. Employment and education in chronological order, newest first.
 5. Community roles and an expandable list of contribution links.
 6. Honors and a direct email contact.
 
 The full content is present in HTML without JavaScript. Native anchors and disclosure elements provide navigation and optional detail. Small screens use a single column; print styles produce a compact resume and omit decorative covers and the contribution appendix. Respect reduced-motion preferences and provide visible keyboard focus. Use freely available fonts with system fallbacks; retain this site's own identity and artwork.
+
+Navigation follows Research → Work → Experience. Project covers use a 16:7 frame, reducing their height by 25% from the original 12:7 frame without cropping the illustrations. Screen text is at least 12 px on mobile, and navigation links have touch targets at least 44 px high. Link directly to verified paper records or author-hosted papers; record the sources in `profile.json`. Public announcements may serve as project entrances when no dedicated project page exists.
 
 ## Development and review
 
