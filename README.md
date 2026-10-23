@@ -12,6 +12,8 @@ The IQuest-Q1 technical report leads Research in a featured entry with separate 
 
 All public page copy, navigation, accessible labels, dates, and contribution titles are in English. Preserve original-language source facts in `profile.json` and keep their English presentation alongside them. Translated award and project names are descriptive translations, not newly verified official names. Do not turn project performance gains into broader system-level claims.
 
+Open-source contributions include the IQuest-Q1 vLLM plugin repository and SGLang PR #41590, alongside Mooncake and openFuyao. The expanded record contains 19 entries. Identify the vLLM link as a plugin repository, not an upstream vLLM PR. Preserve the owner's supplied SGLang comment permalink; the merged PR contains a commit crediting `chenwenxiaolive` as a coauthor. Record the verification sources in `profile.json`.
+
 ## Page structure
 
 1. An editorial introduction with Core Researcher · IQuest Models · IQuestLab directly below the name, a portrait, and the exact IQuest-Q1 credit.

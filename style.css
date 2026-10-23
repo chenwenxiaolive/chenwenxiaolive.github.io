@@ -147,7 +147,7 @@ h2 { font-family: var(--serif); font-size: 42px; font-weight: 500; line-height: 
 .contribution-content { padding-bottom: 22px; }
 .contribution-content h4 { font-weight: 500; font-size: 13px; margin-block: 18px 9px; }
 .contribution-content li { padding-block: 8px; }
-.contribution-content a { display: grid; grid-template-columns: 44px minmax(0, 1fr) 10px; gap: 10px; font-size: 12px; line-height: 1.7; text-decoration: none; overflow-wrap: anywhere; }
+.contribution-content a { display: grid; grid-template-columns: 48px minmax(0, 1fr) 10px; gap: 10px; font-size: 12px; line-height: 1.7; text-decoration: none; overflow-wrap: anywhere; }
 .contribution-content a:hover { text-decoration: underline; }
 .pr-number { color: var(--muted); }
 .honors { display: grid; grid-template-columns: 1fr 1fr; gap: 0 35px; }
@@ -288,7 +288,7 @@ h2 { font-family: var(--serif); font-size: 42px; font-weight: 500; line-height: 
   .community-role > p:not(.role) { font-size: 14px; }
   .contribution-records { padding-inline: 15px; }
   .contribution-records summary { font-size: 12px; }
-  .contribution-content a { font-size: 12px; grid-template-columns: 38px minmax(0, 1fr) 10px; gap: 8px; }
+  .contribution-content a { font-size: 12px; grid-template-columns: 48px minmax(0, 1fr) 10px; gap: 8px; }
   .honors { grid-template-columns: 1fr; }
   .honors > li:nth-child(2) { border-top: 1px solid var(--rule); padding-top: 17px; }
   .contact-section { padding-block: 43px; }

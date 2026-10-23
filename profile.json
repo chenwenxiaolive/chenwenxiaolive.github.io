@@ -47,6 +47,30 @@
   ],
   "community": [
     {
+      "organization": "vLLM",
+      "role": "Contributor",
+      "description": "IQuest-Q1 model plugin for vLLM, with recursive MTP, reasoning parsing, and tool calling.",
+      "url": "https://github.com/IQuestLab/vllm-iquest-q1",
+      "source": "https://github.com/IQuestLab/vllm-iquest-q1/commit/4c368ac26b907e98d76c62c3405634986520e280",
+      "checked_on": "2026-10-23",
+      "display_en": {
+        "role": "Contributor",
+        "description": "IQuest-Q1 model plugin for vLLM, with recursive MTP, reasoning parsing, and tool calling."
+      }
+    },
+    {
+      "organization": "SGLang",
+      "role": "Contributor",
+      "description": "IQuest-Q1 integration with native model support, MTP speculative decoding, and serving documentation.",
+      "url": "https://github.com/sgl-project/sglang/pull/41590#issuecomment-5887514825",
+      "source": "https://github.com/sgl-project/sglang/commit/59bc088b8685e5d7e07fe91a6e4629d33d6bdb4c",
+      "checked_on": "2026-10-23",
+      "display_en": {
+        "role": "Contributor",
+        "description": "IQuest-Q1 integration with native model support, MTP speculative decoding, and serving documentation."
+      }
+    },
+    {
       "organization": "openFuyao",
       "role": "社区架构师",
       "start": "2024",
@@ -320,6 +344,29 @@
   ],
   "contributions": [
     {
+      "project": "vLLM",
+      "type": "repository",
+      "number": null,
+      "title": "IQuest-Q1 model plugin with recursive MTP, reasoning parsing, and tool calling",
+      "title_en": "IQuest-Q1 model plugin with recursive MTP, reasoning parsing, and tool calling",
+      "url": "https://github.com/IQuestLab/vllm-iquest-q1",
+      "source": "https://github.com/IQuestLab/vllm-iquest-q1/commit/4c368ac26b907e98d76c62c3405634986520e280",
+      "checked_on": "2026-10-23",
+      "source_note": "Repository README describes the plugin. The initial commit is authored by chenwenxiaolive and credits Wenxiao Chen among its coauthors. This is an IQuestLab plugin repository, not an upstream vLLM PR."
+    },
+    {
+      "project": "SGLang",
+      "type": "pull_request",
+      "number": 41590,
+      "title": "[Model] Add IQuest Q1 support and MTP draft",
+      "title_en": "[Model] Add IQuest Q1 support and MTP draft",
+      "url": "https://github.com/sgl-project/sglang/pull/41590#issuecomment-5887514825",
+      "source": "https://github.com/sgl-project/sglang/commit/59bc088b8685e5d7e07fe91a6e4629d33d6bdb4c",
+      "checked_on": "2026-10-23",
+      "merged": true,
+      "source_note": "The PR was opened by sglang-bot and merged on September 29, 2026. Commit 59bc088b8685e5d7e07fe91a6e4629d33d6bdb4c credits chenwenxiaolive as a coauthor. The supplied permalink points to chenwenxiaolive’s comment; it is preserved as the contribution entrance."
+    },
+    {
       "project": "Mooncake",
       "number": 1347,
       "title": "[Store][Feature] Introduce DataManager for unified local + remote data access",
@@ -444,7 +491,8 @@
     "employment_update": "User: Core Researcher, IQuest Models at IQuestLab, 2026.06–present; Huawei departure in 2026.05.",
     "scholar_check": "Direct Google Scholar profile fetch on 2026-10-23.",
     "existing_claims": "Education, previous roles, project outcomes and honors are retained from the existing resume; no new independent verification is implied.",
-    "iquest_report": "Title, submission date, and Wenxiao Chen coauthorship verified from https://arxiv.org/abs/2610.30949 on 2026-10-23."
+    "iquest_report": "Title, submission date, and Wenxiao Chen coauthorship verified from https://arxiv.org/abs/2610.30949 on 2026-10-23.",
+    "inference_contributions": "Owner supplied the vLLM plugin repository and SGLang PR comment permalink; repository README, commit authorship, PR merge status, and SGLang coauthor credit verified through GitHub on 2026-10-23."
   },
   "editorial_preferences": [
     "Keep IQuest-Q1 to the exact short credit and official link.",
