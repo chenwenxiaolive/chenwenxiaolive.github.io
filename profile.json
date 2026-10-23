@@ -33,9 +33,9 @@
       "organization": "华为技术有限公司",
       "role": "技术专家（天才少年计划）",
       "start": "2022-07",
-      "end": null,
+      "end": "2026-05",
       "current": false,
-      "date_note": "Departure month has not been specified; do not infer it from the IQuestLab start date.",
+      "date_note": "The owner confirmed departure from Huawei in May 2026.",
       "description": "主导智能计算集群系统和 LLM 基础设施的研发工作。3 年内获得 15 项公司级奖励，包括华为杰出工程师（2024）、华为杰出专家（2025）。",
       "display_en": {
         "organization": "Huawei",
@@ -400,14 +400,14 @@
   ],
   "record_sources": {
     "existing_resume_commit": "0eb4d57965d7676f0cbc32de3de1eac92d7d0afe",
-    "employment_update": "User: IQuestLab, 2026.06–present.",
+    "employment_update": "User: IQuestLab, 2026.06–present; Huawei departure in 2026.05.",
     "scholar_check": "Direct Google Scholar profile fetch on 2026-10-23.",
     "existing_claims": "Education, previous roles, project outcomes and honors are retained from the existing resume; no new independent verification is implied."
   },
   "editorial_preferences": [
     "Keep IQuest-Q1 to the exact short credit and official link.",
     "Do not add nano-mooncake or lmsys-chat-1000 to the public resume.",
-    "Do not infer an IQuestLab title or a Huawei departure month.",
+    "Do not infer an IQuestLab title. Huawei employment ended in May 2026, as confirmed by the owner.",
     "Separate community roles from paid employment.",
     "Use English throughout the public website, including navigation, accessible labels, and contribution titles. Use Claude blog pages as the visual reference.",
     "Use the owner-specified English name Top-Mind Program for the Huawei program."

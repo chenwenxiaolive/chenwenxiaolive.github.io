@@ -4,7 +4,7 @@ A static English resume and research profile, published through the existing Git
 
 ## Content record
 
-`profile.json` preserves the resume facts, source notes, and editorial preferences. Update the record before changing the corresponding page content. Current employment is **IQuestLab, June 2026–present**, as confirmed by the owner. Do not infer a job title or Huawei departure month. The IQuest-Q1 credit remains the single sentence “I made IQuest-Q1.” with its official link.
+`profile.json` preserves the resume facts, source notes, and editorial preferences. Update the record before changing the corresponding page content. The owner confirmed **Huawei, July 2022–May 2026**, followed by **IQuestLab, June 2026–present**. Do not infer an IQuestLab job title. The IQuest-Q1 credit remains the single sentence “I made IQuest-Q1.” with its official link.
 
 Scholar totals and all six featured paper citation counts were checked on October 23, 2026. Keep the verification date attached to the statistics. Other career facts and project outcomes come from the owner's existing resume.
 
