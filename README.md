@@ -4,9 +4,11 @@ A static English resume and research profile, published through the existing Git
 
 ## Content record
 
-`profile.json` preserves the resume facts, source notes, and editorial preferences. Update the record before changing the corresponding page content. The owner confirmed **Huawei, July 2022–May 2026**, followed by **IQuestLab, June 2026–present**. Do not infer an IQuestLab job title. The IQuest-Q1 credit remains the single sentence “I made IQuest-Q1.” with its official link.
+`profile.json` preserves the resume facts, source notes, and editorial preferences. Update the record before changing the corresponding page content. The owner confirmed **Huawei, July 2022–May 2026**, followed by **Core Researcher, IQuest Models at IQuestLab, June 2026–present**. The IQuest-Q1 credit remains the single sentence “I made IQuest-Q1.” with its official link.
 
 Scholar totals and all six featured paper citation counts were checked on October 23, 2026. Keep the verification date attached to the statistics. Other career facts and project outcomes come from the owner's existing resume.
+
+The IQuest-Q1 technical report is listed first among seven selected publications. Its title, submission date, and Wenxiao Chen's coauthorship are verified from [arXiv:2610.30949](https://arxiv.org/abs/2610.30949). Its citation count is unknown and is not displayed; adding it does not change the dated Scholar statistics.
 
 All public page copy, navigation, accessible labels, dates, and contribution titles are in English. Preserve original-language source facts in `profile.json` and keep their English presentation alongside them. Translated award and project names are descriptive translations, not newly verified official names. Do not turn project performance gains into broader system-level claims.
 
@@ -15,7 +17,7 @@ All public page copy, navigation, accessible labels, dates, and contribution tit
 1. An editorial introduction, current affiliation, portrait, and the exact IQuest-Q1 credit.
 2. Selected work, with original vector covers and concrete project outcomes.
 3. Employment and education in chronological order, newest first.
-4. Research metrics and six selected publications.
+4. Research metrics and seven selected publications.
 5. Community roles and an expandable list of contribution links.
 6. Honors and a direct email contact.
 

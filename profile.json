@@ -23,10 +23,11 @@
     "start": "2026-06",
     "end": null,
     "current": true,
-    "role": null,
+    "role": "Core Researcher, IQuest Models",
     "credit": "I made IQuest-Q1.",
     "project_url": "https://iquestlab.github.io/",
-    "source": "Confirmed by the user on 2026-10-23; keep the project credit concise."
+    "source": "Organization, start date, and Core Researcher role confirmed by the user on 2026-10-23; keep the project credit concise.",
+    "role_source": "IQuest 模型核心研究员"
   },
   "experience": [
     {
@@ -180,6 +181,21 @@
     "checked_on": "2026-10-23",
     "source": "https://scholar.google.com/citations?user=zyNS7ogAAAAJ&hl=en&pagesize=100",
     "featured_publications": [
+      {
+        "venue": "arXiv 2026",
+        "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+        "authors": "A. Jian Yang et al. (including Wenxiao Chen)",
+        "author_note": "Condensed author list; Wenxiao Chen is explicitly listed on the arXiv abstract page.",
+        "citations": null,
+        "collaboration": "",
+        "collaboration_en": "",
+        "url": "https://arxiv.org/abs/2610.30949",
+        "arxiv_id": "2610.30949",
+        "submitted_on": "2026-10-22",
+        "publication_type": "Technical report / preprint",
+        "source": "https://arxiv.org/abs/2610.30949",
+        "checked_on": "2026-10-23"
+      },
       {
         "venue": "WWW 2018",
         "title": "Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications",
@@ -400,14 +416,15 @@
   ],
   "record_sources": {
     "existing_resume_commit": "0eb4d57965d7676f0cbc32de3de1eac92d7d0afe",
-    "employment_update": "User: IQuestLab, 2026.06–present; Huawei departure in 2026.05.",
+    "employment_update": "User: Core Researcher, IQuest Models at IQuestLab, 2026.06–present; Huawei departure in 2026.05.",
     "scholar_check": "Direct Google Scholar profile fetch on 2026-10-23.",
-    "existing_claims": "Education, previous roles, project outcomes and honors are retained from the existing resume; no new independent verification is implied."
+    "existing_claims": "Education, previous roles, project outcomes and honors are retained from the existing resume; no new independent verification is implied.",
+    "iquest_report": "Title, submission date, and Wenxiao Chen coauthorship verified from https://arxiv.org/abs/2610.30949 on 2026-10-23."
   },
   "editorial_preferences": [
     "Keep IQuest-Q1 to the exact short credit and official link.",
     "Do not add nano-mooncake or lmsys-chat-1000 to the public resume.",
-    "Do not infer an IQuestLab title. Huawei employment ended in May 2026, as confirmed by the owner.",
+    "Use the confirmed role Core Researcher, IQuest Models at IQuestLab. Huawei employment ended in May 2026, as confirmed by the owner.",
     "Separate community roles from paid employment.",
     "Use English throughout the public website, including navigation, accessible labels, and contribution titles. Use Claude blog pages as the visual reference.",
     "Use the owner-specified English name Top-Mind Program for the Huawei program."
