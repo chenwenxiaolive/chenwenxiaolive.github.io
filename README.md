@@ -1,1 +1,26 @@
-# chenwenxiao.github.io
+# Wenxiao Chen's personal website
+
+A static Chinese resume and research profile, published through the existing GitHub Pages workflow. The design uses warm paper colors, serif headings, restrained terracotta accents, and generous spacing.
+
+## Content record
+
+`profile.json` preserves the resume facts, source notes, and editorial preferences. Update the record before changing the corresponding page content. Current employment is **IQuestLab, June 2026–present**, as confirmed by the owner. Do not infer a job title or Huawei departure month. The IQuest-Q1 credit remains the single sentence “I made IQuest-Q1.” with its official link.
+
+Scholar totals and all six featured paper citation counts were checked on October 23, 2026. Keep the verification date attached to the statistics. Other career facts and project outcomes come from the owner's existing resume.
+
+## Page structure
+
+1. Personal introduction, current affiliation, contact links, and the IQuest-Q1 credit.
+2. Selected work, with concrete project outcomes.
+3. Employment and education in chronological order, newest first.
+4. Research metrics and six selected publications.
+5. Community roles and an expandable list of contribution links.
+6. Honors and a direct email contact.
+
+The full content is present in HTML without JavaScript. Native anchors and disclosure elements provide navigation and optional detail. Small screens use a single column; print styles produce a compact resume and omit the contribution appendix. Respect reduced-motion preferences and provide visible keyboard focus.
+
+## Development and review
+
+Edit `index.html`, `style.css`, and `profile.json` in this checkout. There is no dependency installation or application build. Keep the existing GitHub Pages deployment workflow.
+
+Publish committed snapshots and the human-readable career record through `/preview`. Check desktop and mobile layouts, keyboard navigation, disclosure behavior, local assets, print rendering, and consistency with `profile.json`. Browser tooling and verification artifacts belong outside the repository.

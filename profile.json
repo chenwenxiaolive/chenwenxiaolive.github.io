@@ -1,0 +1,313 @@
+{
+  "updated_at": "2026-10-23",
+  "identity": {
+    "name": "陈文潇",
+    "name_en": "Wenxiao Chen",
+    "email": "chenwenxiaolive@gmail.com",
+    "portrait": "photo.jpg",
+    "focus": [
+      "大语言模型",
+      "AI 基础设施",
+      "智能运维 AIOps"
+    ],
+    "github": "https://github.com/chenwenxiaolive",
+    "scholar": "https://scholar.google.com/citations?user=zyNS7ogAAAAJ"
+  },
+  "current": {
+    "organization": "IQuestLab",
+    "start": "2026-06",
+    "end": null,
+    "current": true,
+    "role": null,
+    "credit": "I made IQuest-Q1.",
+    "project_url": "https://iquestlab.github.io/",
+    "source": "Confirmed by the user on 2026-10-23; keep the project credit concise."
+  },
+  "experience": [
+    {
+      "organization": "华为技术有限公司",
+      "role": "技术专家（天才少年计划）",
+      "start": "2022-07",
+      "end": null,
+      "current": false,
+      "date_note": "Departure month has not been specified; do not infer it from the IQuestLab start date.",
+      "description": "主导智能计算集群系统和 LLM 基础设施的研发工作。3 年内获得 15 项公司级奖励，包括华为杰出工程师（2024）、华为杰出专家（2025）。"
+    }
+  ],
+  "community": [
+    {
+      "organization": "openFuyao",
+      "role": "社区架构师",
+      "start": "2024",
+      "description": "主导昇腾 NPU 的 AI 推理基础设施建设，涉及 PD 分离架构、分布式 KVCache 传输与主流大模型部署。",
+      "honor": "2025 年度突出贡献者",
+      "url": "https://www.openfuyao.cn/zh/honor/"
+    },
+    {
+      "organization": "Mooncake",
+      "role": "Reviewer & Contributor",
+      "start": "2025",
+      "description": "参与分布式 KVCache 存储引擎的开发与代码审查，涉及 DataManager、Ascend NPU Cache Tier、Local Cache。",
+      "url": "https://github.com/kvcache-ai/Mooncake"
+    }
+  ],
+  "education": [
+    {
+      "school": "清华大学",
+      "degree": "计算机科学与技术 博士",
+      "start": "2017-09",
+      "end": "2022-06",
+      "advisor": "裴丹教授",
+      "research": [
+        "智能运维",
+        "异常检测",
+        "深度生成模型"
+      ]
+    },
+    {
+      "school": "清华大学",
+      "degree": "计算机科学与技术 学士",
+      "start": "2013-09",
+      "end": "2017-06",
+      "gpa": "90.86/100",
+      "rank_record": "年级排名 Top 10+",
+      "honors": [
+        "优秀毕业生",
+        "国家奖学金"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "openFuyao AI 推理基础设施",
+      "period_record": "2024 — 至今",
+      "description": "攻克 PD 分离架构、分布式 KVCache 传输、AscendCacheTier 等关键技术，实现 DeepSeek 等主流大模型在昇腾 910B 上的云原生部署。与 Mooncake 社区合作，实现 store 接口 60%–80% 性能提升。"
+    },
+    {
+      "name": "LogAnalyzer",
+      "period_record": "2024.11 — 至今",
+      "description": "面向万卡以上 GPU/NPU 集群的 LLM 驱动故障诊断系统。部署于科大讯飞 X1 集群，整体诊断准确率 87.5%，将诊断时间从天级缩短至分钟级。华为全联接大会 2025 联合发布。"
+    },
+    {
+      "name": "LogGPT",
+      "period_record": "2023 — 2024",
+      "description": "免人工标注的运维领域日志分析大模型。在 200+ 服务上实现 80%+ 异常日志识别准确率，将问题诊断时间从小时级缩短至分钟级。",
+      "original_priority_claim": "业界首个免人工标注的运维领域日志分析大模型"
+    },
+    {
+      "name": "智能北斗（ADN 自运维）",
+      "period_record": "2022 — 2024",
+      "description": "自动驾驶网络运维平台核心算法。降低 90% 误报率，实现分钟级故障发现（原为天级）。因此获得华为杰出工程师。"
+    },
+    {
+      "name": "RDMA KVCache 传输加速",
+      "period_record": "2025.01 — 至今",
+      "description": "基于 RDMA 的高速 KVCache 传输，实现 KVCache 共享，减少多轮对话和长上下文场景的冗余计算。已申请 4 项专利。"
+    }
+  ],
+  "scholar": {
+    "citations": 2115,
+    "h_index": 11,
+    "i10_index": 12,
+    "publications_record": "15+",
+    "checked_on": "2026-10-23",
+    "source": "https://scholar.google.com/citations?user=zyNS7ogAAAAJ&hl=en&pagesize=100",
+    "featured_publications": [
+      {
+        "venue": "WWW 2018",
+        "title": "Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications",
+        "authors": "H Xu*, W Chen*, N Zhao, Z Li, J Bu, Z Li, Y Liu, Y Zhao, D Pei, Y Feng, J Chen, Z Wang, H Qiao",
+        "citations": 1518,
+        "collaboration": "Alibaba 工业合作"
+      },
+      {
+        "venue": "INFOCOM 2019",
+        "title": "Unsupervised Anomaly Detection for Intricate KPIs via Adversarial Training of VAE",
+        "authors": "W Chen, H Xu, Z Li, D Pei, J Chen, H Qiao, Y Feng, Z Wang",
+        "citations": 131,
+        "collaboration": "Alibaba 工业合作"
+      },
+      {
+        "venue": "IPCCC 2018",
+        "title": "Robust and Unsupervised KPI Anomaly Detection Based on Conditional Variational Autoencoder",
+        "authors": "Z Li, W Chen, D Pei",
+        "citations": 129,
+        "collaboration": "Alibaba 工业合作"
+      },
+      {
+        "venue": "WWW 2023",
+        "title": "Unsupervised Anomaly Detection on Microservice Traces through Graph VAE",
+        "authors": "Z Xie, H Xu, W Chen, W Li, H Jiang, L Su, H Wang, D Pei",
+        "citations": 100,
+        "collaboration": ""
+      },
+      {
+        "venue": "FSE 2024",
+        "title": "Chain-of-Event: Interpretable Root Cause Analysis for Microservices through Automatically Learning Weighted Event Causal Graph",
+        "authors": "Z Yao, C Pei, W Chen, H Wang, L Su, H Jiang, Z Xie, X Nie, D Pei",
+        "citations": 38,
+        "collaboration": "eBay 工业合作"
+      },
+      {
+        "venue": "ICASSP 2016",
+        "title": "A Deep Bidirectional Long Short-Term Memory Based Multi-Scale Approach for Music Dynamic Emotion Prediction",
+        "authors": "X Li, H Xianyu, J Tian, W Chen, F Meng, M Xu, L Cai",
+        "citations": 54,
+        "collaboration": ""
+      }
+    ]
+  },
+  "patent_applications": 4,
+  "honors": [
+    {
+      "year": "2025",
+      "name": "华为杰出专家"
+    },
+    {
+      "year": "2024",
+      "name": "华为杰出工程师"
+    },
+    {
+      "year": "2025",
+      "name": "openFuyao 年度突出贡献者"
+    },
+    {
+      "year": "2022",
+      "name": "华为天才少年计划"
+    },
+    {
+      "year": "2025",
+      "name": "华为极客大赛二等奖",
+      "detail": "#13/10万"
+    },
+    {
+      "year": "2012",
+      "name": "NOI 金牌"
+    },
+    {
+      "year": null,
+      "name": "Codeforces Grandmaster",
+      "detail": "2472"
+    },
+    {
+      "year": "2017",
+      "name": "清华大学优秀毕业生"
+    }
+  ],
+  "contributions": [
+    {
+      "project": "Mooncake",
+      "number": 1347,
+      "title": "[Store][Feature] Introduce DataManager for unified local + remote data access",
+      "url": "https://github.com/kvcache-ai/Mooncake/pull/1347"
+    },
+    {
+      "project": "Mooncake",
+      "number": 1226,
+      "title": "Add Local Cache Mechanism for Mooncake Store Client",
+      "url": "https://github.com/kvcache-ai/Mooncake/pull/1226"
+    },
+    {
+      "project": "Mooncake",
+      "number": 1428,
+      "title": "[Store][Feature] Implement Remote data transfer in DataManager and PeerClient",
+      "url": "https://github.com/kvcache-ai/Mooncake/pull/1428"
+    },
+    {
+      "project": "Mooncake",
+      "number": 1441,
+      "title": "[Store] feat: Add Ascend NPU cache tier support",
+      "url": "https://github.com/kvcache-ai/Mooncake/pull/1441"
+    },
+    {
+      "project": "Mooncake",
+      "number": 1493,
+      "title": "[Store] Add SSD tier support with LRU scheduler and thread-safe implementation",
+      "url": "https://github.com/kvcache-ai/Mooncake/pull/1493"
+    },
+    {
+      "project": "Mooncake",
+      "number": 1596,
+      "title": "[STORE] feat: Frequency admission + LRU lock optimization for local hot cache",
+      "url": "https://github.com/kvcache-ai/Mooncake/pull/1596"
+    },
+    {
+      "project": "openFuyao",
+      "number": 63,
+      "title": "oFEP-0036 AI推理服务化框架组件端到端helm包一键部署",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/63"
+    },
+    {
+      "project": "openFuyao",
+      "number": 61,
+      "title": "oFEP-0034 Mooncake Store V3 跨机RPC读写",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/61"
+    },
+    {
+      "project": "openFuyao",
+      "number": 60,
+      "title": "oFEP-0033 基于时间因素的潮汐调度决策算法",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/60"
+    },
+    {
+      "project": "openFuyao",
+      "number": 53,
+      "title": "oFEP-0030 通用扩缩容决策框架设计提案",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/53"
+    },
+    {
+      "project": "openFuyao",
+      "number": 52,
+      "title": "oFEP-0029 面向PD分离场景的基于RoleBasedGroup的动态扩缩调度方案",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/52"
+    },
+    {
+      "project": "openFuyao",
+      "number": 51,
+      "title": "oFEP-0028 Mooncake Store AscendCacheTier实现",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/51"
+    },
+    {
+      "project": "openFuyao",
+      "number": 49,
+      "title": "oFEP-0026 AI推理可观测",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/49"
+    },
+    {
+      "project": "openFuyao",
+      "number": 47,
+      "title": "oFEP-0025 AI推理智能路由增强",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/47"
+    },
+    {
+      "project": "openFuyao",
+      "number": 46,
+      "title": "oFEP-0024 KVCache存储Mooncake Store优化",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/46"
+    },
+    {
+      "project": "openFuyao",
+      "number": 38,
+      "title": "oFEP-0018 基于Mooncake实现共享内存语义池化改造",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/38"
+    },
+    {
+      "project": "openFuyao",
+      "number": 23,
+      "title": "oFEP-0011 AI推理智能路由hermes-router",
+      "url": "https://gitcode.com/openFuyao/ofep/pull/23"
+    }
+  ],
+  "record_sources": {
+    "existing_resume_commit": "0eb4d57965d7676f0cbc32de3de1eac92d7d0afe",
+    "employment_update": "User: IQuestLab, 2026.06–present.",
+    "scholar_check": "Direct Google Scholar profile fetch on 2026-10-23.",
+    "existing_claims": "Education, previous roles, project outcomes and honors are retained from the existing resume; no new independent verification is implied."
+  },
+  "editorial_preferences": [
+    "Keep IQuest-Q1 to the exact short credit and official link.",
+    "Do not add nano-mooncake or lmsys-chat-1000 to the public resume.",
+    "Do not infer an IQuestLab title or a Huawei departure month.",
+    "Separate community roles from paid employment."
+  ]
+}
