@@ -6,7 +6,7 @@
     <title>陈文潇 | AI Infra / AIOps</title>
     <meta
       name="description"
-      content="陈文潇，清华大学计算机博士，华为天才少年，openFuyao 社区架构师。专注大语言模型推理基础设施、分布式 KVCache、推理性能评测与智能运维（AIOps）。"
+      content="清华大学计算机博士，华为天才少年，openFuyao 社区架构师。研究聚焦大语言模型系统与智能运维（AIOps），Google Scholar 1757+ 引用，h-index 10。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -453,14 +453,6 @@
         text-underline-offset: 3px;
       }
 
-      .resume-updated {
-        margin-top: 24px;
-        color: var(--text-muted);
-        font-size: 13px;
-        line-height: 1.8;
-        text-align: center;
-      }
-
       .highlight {
         color: var(--accent);
         font-weight: 700;
@@ -520,12 +512,13 @@
         <p class="eyebrow">AI Infra Architect &middot; Huawei Top Minds</p>
         <h1 class="title">陈文潇</h1>
         <p class="subtitle">
-          清华大学计算机博士，华为天才少年，openFuyao 社区架构师。专注<strong>大语言模型推理基础设施</strong>与<strong>智能运维（AIOps）</strong>，工作涵盖 PD 分离、分布式 KVCache、推理性能评测与智算集群故障诊断。
+          清华大学计算机博士，华为天才少年，openFuyao 社区架构师。研究聚焦于<strong>大语言模型系统</strong>与<strong>智能运维（AIOps）</strong>，致力于构建高效、可靠、智能的大规模 AI 系统基础设施。
+          <br />I made <a href="https://iquestlab.github.io/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-underline-offset:4px">IQuest-Q1</a>.
         </p>
         <div class="hero-contact">
-          <a href="mailto:chenwenxiaolive@gmail.com">chenwenxiaolive@gmail.com</a>
+          <span>chenwenxiaolive@gmail.com</span>
           <a href="https://github.com/chenwenxiaolive" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=zyNS7ogAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://scholar.google.com.hk/citations?user=zyNS7ogAhexinjish" target="_blank" rel="noopener noreferrer">Google Scholar</a>
         </div>
         <div class="stats-row">
           <div class="stat">
@@ -553,12 +546,10 @@
         <article class="panel grid-full">
           <h2>研究方向</h2>
           <p>
-            将异常检测与深度生成模型研究应用于智能运维，并围绕 LLM 推理系统开展分离式架构、缓存分层与性能评测工作。算法竞赛背景：NOI 2012 金牌、Codeforces Grandmaster。
+            凭借扎实的算法功底（NOI 2012 金牌、Codeforces Grandmaster），研究工作涵盖 LLM 系统的全栈领域，从推理优化到智能运维。
           </p>
           <div class="badges" style="margin-top: 14px;" aria-label="research areas">
             <span class="badge">LLM 推理优化</span>
-            <span class="badge">分布式 KVCache</span>
-            <span class="badge">推理性能评测</span>
             <span class="badge">智能运维 AIOps</span>
             <span class="badge">深度生成模型</span>
             <span class="badge">分布式系统</span>
@@ -621,7 +612,7 @@
               </div>
               <div class="tl-sub">Reviewer & Contributor</div>
               <div class="tl-detail">
-                参与 Mooncake 分布式 KVCache 存储引擎的开发与代码审查，涵盖 DataManager、Ascend NPU Cache Tier、Local Cache 等模块。提交的昇腾 NPU 缓存层与热缓存频次准入、LRU 锁优化已合入上游。
+                参与 Mooncake 分布式 KVCache 存储引擎的开发与代码审查，贡献 DataManager、Ascend NPU Cache Tier、Local Cache 等核心模块。
               </div>
             </li>
           </ul>
@@ -630,16 +621,10 @@
           <h2>代表性项目</h2>
           <div class="proj-grid">
             <div class="proj-card">
-              <h3>lmsys-chat-1000：多轮对话推理评测</h3>
-              <span class="tl-date">2026.04 · 开源项目</span>
-              <p>基于 LMSYS-Chat-1M 整理完整多轮对话子集，主数据集包含 <span class="highlight">1,925 段对话 / 10,008 轮请求</span>。提供兼容 OpenAI API 的推理服务评测脚本，支持跨会话并发、固定历史回放与实时对话，按轮次统计首 token 延迟（TTFT）和端到端延迟，用于分析前缀缓存收益。</p>
-              <a class="project-link" href="https://github.com/chenwenxiaolive/lmsys-chat-1000" target="_blank" rel="noopener noreferrer">源码与评测方法 ↗</a>
-            </div>
-            <div class="proj-card">
-              <h3>nano-mooncake：分离式推理最小原型</h3>
-              <span class="tl-date">2026.03 · 开源项目</span>
-              <p>以纯 Python 实现 Transfer Engine、Mooncake Store 与 vLLM KV Connector，串联 KVCache 传输、分布式存储和 <span class="highlight">Prefill / Decode 分离</span>。支持 P2P 直传与 Store 两种接入方式，并提供跨进程元数据服务及真实 vLLM 推理示例，用于理解和验证系统核心设计。</p>
-              <a class="project-link" href="https://github.com/chenwenxiaolive/nano-mooncake" target="_blank" rel="noopener noreferrer">源码与架构说明 ↗</a>
+              <h3>IQuest-Q1：面向 CLI Agent 的开源基础模型</h3>
+              <span class="tl-date">模型研发</span>
+              <p>研发 IQuest-Q1，面向命令行环境中的代码开发、推理与多步工具调用。模型采用稀疏 MoE 架构，拥有 <span class="highlight">320B 总参数 / 15B 激活参数</span>，支持 <span class="highlight">512K 上下文</span>，覆盖中长程任务中的代码阅读、工具执行、结果验证与错误恢复。</p>
+              <a class="project-link" href="https://iquestlab.github.io/" target="_blank" rel="noopener noreferrer">项目主页与技术报告 ↗</a>
             </div>
             <div class="proj-card">
               <h3>openFuyao AI 推理基础设施</h3>
@@ -711,7 +696,7 @@
             </li>
           </ul>
           <p style="margin-top: 14px; text-align: center; color: var(--text-muted); font-size: 14px;">
-            …… 另有 9+ 篇论文，详见 <a href="https://scholar.google.com/citations?user=zyNS7ogAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" style="color:var(--accent);border-bottom:1px solid var(--accent)">Google Scholar</a>。引用统计沿用 2026 年 3 月简历记录，最新数据以学术主页为准。
+            …… 另有 9+ 篇论文，详见 <a href="https://scholar.google.com.hk/citations?user=zyNS7ogAhexinjish" target="_blank" rel="noopener noreferrer" style="color:var(--accent);border-bottom:1px solid var(--accent)">Google Scholar</a>。引用统计沿用 2026 年 3 月简历记录，最新数据以学术主页为准。
           </p>
         </article>
 
@@ -719,7 +704,7 @@
         <article class="panel delay-3 grid-full">
           <h2>开源贡献</h2>
           <p style="margin-bottom: 14px; color: var(--text-muted); font-size: 14px;">
-            Mooncake（kvcache-ai/Mooncake）— 分布式 KVCache 存储引擎；开发与代码审查涉及的代表性 PR
+            Mooncake（kvcache-ai/Mooncake）— 分布式 KVCache 存储引擎
           </p>
           <ul class="pub-list">
             <li class="pub-item">
@@ -743,9 +728,8 @@
               <a class="pub-title" href="https://github.com/kvcache-ai/Mooncake/pull/1493" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit">[Store] Add SSD tier support with LRU scheduler and thread-safe implementation <span style="font-size:12px;color:var(--text-muted)">#1493</span></a>
             </li>
             <li class="pub-item">
-              <span class="pub-venue">MERGED · 2026.03.15</span>
+              <span class="pub-venue" style="background:#fff7ed;color:#9a3412">OPEN</span>
               <a class="pub-title" href="https://github.com/kvcache-ai/Mooncake/pull/1596" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit">[STORE] feat: Frequency admission + LRU lock optimization for local hot cache <span style="font-size:12px;color:var(--text-muted)">#1596</span></a>
-              <div class="pub-authors">引入 Count-Min Sketch 频次准入，减少一次性访问对热缓存的污染；通过共享读锁与延迟批量更新 LRU 降低锁竞争，并修复传输失败及引用计数释放路径。</div>
             </li>
           </ul>
           <p style="margin-top: 20px; margin-bottom: 14px; color: var(--text-muted); font-size: 14px;">
@@ -844,7 +828,7 @@
           <div class="links">
             <a
               class="link-card"
-              href="https://scholar.google.com/citations?user=zyNS7ogAAAAJ&amp;hl=en"
+              href="https://scholar.google.com.hk/citations?user=zyNS7ogAhexinjish"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -864,9 +848,6 @@
           <div class="contact"><span class="dot"></span>chenwenxiaolive@gmail.com</div>
         </article>
       </section>
-      <footer class="resume-updated">
-        公开项目与 Mooncake PR 状态更新于 <time datetime="2026-10-23">2026 年 10 月 23 日</time>
-      </footer>
     </main>
   </body>
 </html>
