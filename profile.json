@@ -39,7 +39,7 @@
       "description": "主导智能计算集群系统和 LLM 基础设施的研发工作。3 年内获得 15 项公司级奖励，包括华为杰出工程师（2024）、华为杰出专家（2025）。",
       "display_en": {
         "organization": "Huawei",
-        "role": "Technical Expert · Genius Youth Program",
+        "role": "Technical Expert · Top-Mind Program",
         "description": "Led intelligent computing systems and LLM infrastructure development. Received 15 company-level awards in three years, including Outstanding Engineer (2024) and Outstanding Expert (2025)."
       }
     }
@@ -250,7 +250,7 @@
     {
       "year": "2022",
       "name": "华为天才少年计划",
-      "name_en": "Huawei Genius Youth Program"
+      "name_en": "Huawei Top-Mind Program"
     },
     {
       "year": "2025",
@@ -409,7 +409,8 @@
     "Do not add nano-mooncake or lmsys-chat-1000 to the public resume.",
     "Do not infer an IQuestLab title or a Huawei departure month.",
     "Separate community roles from paid employment.",
-    "Use English throughout the public website, including navigation, accessible labels, and contribution titles. Use Claude blog pages as the visual reference."
+    "Use English throughout the public website, including navigation, accessible labels, and contribution titles. Use Claude blog pages as the visual reference.",
+    "Use the owner-specified English name Top-Mind Program for the Huawei program."
   ],
   "presentation": {
     "language": "en",

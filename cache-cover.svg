@@ -2,7 +2,7 @@
   <rect width="720" height="420" fill="#e5ddcc"/>
   <g stroke="#48463c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M80 210h106m348 0h106M360 49v65m0 193v65"/>
-    <path d="m174 203 12 7-12 7m454-14 12 7-12 7m-287-103 7 12 7-12m-14 248 7 12 7-12"/>
+    <path d="m174 203 12 7-12 7M628 203l12 7-12 7M353 102l7 12 7-12M353 360l7 12 7-12"/>
     <path d="M222 127 360 67l138 60v165l-138 61-138-61Z" fill="#f4f0e6"/>
     <path d="m222 127 138 61 138-61M360 188v165"/>
     <path d="m222 182 138 61 138-61m-276 55 138 61 138-61"/>
