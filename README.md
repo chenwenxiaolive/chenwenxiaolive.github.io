@@ -8,7 +8,7 @@ A static English resume and research profile, published through the existing Git
 
 Scholar totals and all six featured paper citation counts were checked on October 23, 2026. Keep the verification date attached to the statistics. Other career facts and project outcomes come from the owner's existing resume.
 
-The IQuest-Q1 technical report is listed first among seven selected publications. Its title, submission date, and Wenxiao Chen's coauthorship are verified from [arXiv:2610.30949](https://arxiv.org/abs/2610.30949). Its citation count is unknown and is not displayed; adding it does not change the dated Scholar statistics.
+The IQuest-Q1 technical report leads Research in a featured entry with separate Project and Paper links, followed by the dated metrics and six other selected publications. Its title, submission date, and Wenxiao Chen's coauthorship are verified from [arXiv:2610.30949](https://arxiv.org/abs/2610.30949). Its citation count is unknown and is not displayed; adding it does not change the dated Scholar statistics.
 
 All public page copy, navigation, accessible labels, dates, and contribution titles are in English. Preserve original-language source facts in `profile.json` and keep their English presentation alongside them. Translated award and project names are descriptive translations, not newly verified official names. Do not turn project performance gains into broader system-level claims.
 
@@ -24,6 +24,8 @@ All public page copy, navigation, accessible labels, dates, and contribution tit
 The full content is present in HTML without JavaScript. Native anchors and disclosure elements provide navigation and optional detail. Small screens use a single column; print styles produce a compact resume and omit decorative covers and the contribution appendix. Respect reduced-motion preferences and provide visible keyboard focus. Use freely available fonts with system fallbacks; retain this site's own identity and artwork.
 
 Navigation follows Research → Work → Experience. Project covers use a 16:7 frame, reducing their height by 25% from the original 12:7 frame without cropping the illustrations. Screen text is at least 12 px on mobile, and navigation links have touch targets at least 44 px high. Link directly to verified paper records or author-hosted papers; record the sources in `profile.json`. Public announcements may serve as project entrances when no dedicated project page exists.
+
+Paper titles use an external-link arrow and show their underline on hover or keyboard focus. The mobile introduction combines the portrait and start date without repeating the affiliation; the complete Research heading should fit within the first 844 px at a 390 px viewport. Two-column project cards share content rows so that results and footer links align even when descriptions wrap differently. Mobile cards keep their natural content height.
 
 ## Development and review
 

@@ -458,6 +458,12 @@
     "language": "en",
     "visual_reference": "https://claude.com/resources/articles",
     "reference_checked_on": "2026-10-23",
-    "translation_note": "English project and award names are descriptive translations of the preserved source record."
+    "translation_note": "English project and award names are descriptive translations of the preserved source record.",
+    "research_feature": "Feature IQuest-Q1 above Scholar metrics with Project and Paper entrances; retain all seven selected publications.",
+    "refinements": [
+      "Paper title arrows with underlines on hover and keyboard focus.",
+      "Compact mobile hero with one affiliation and the start date retained.",
+      "Aligned result numbers and footer links in two-column project cards."
+    ]
   }
 }
