@@ -113,10 +113,10 @@ h2 { font-family: var(--serif); font-size: 42px; font-weight: 500; line-height: 
 .publication-main { max-width: 940px; }
 .publication .eyebrow { font-size: 12px; }
 .publication h3 { font-family: var(--serif); font-size: 21px; font-weight: 500; line-height: 1.4; letter-spacing: -.3px; margin-top: 10px; }
-.publication h3 a { display: inline-flex; align-items: baseline; gap: 10px; text-decoration: none; }
-.paper-title-text { min-width: 0; }
+/* Keep the arrow in the title's text flow; its nonbreaking space prevents an orphan. */
+.publication h3 a { display: inline; text-decoration: none; }
 .publication h3 a:hover .paper-title-text, .publication h3 a:focus-visible .paper-title-text { text-decoration: underline; text-decoration-color: #a9a394; text-underline-offset: 5px; text-decoration-thickness: 1px; }
-.link-arrow { flex: none; font-family: var(--sans); font-size: 14px; color: var(--muted); }
+.link-arrow { white-space: nowrap; margin-inline-start: .25em; font-family: var(--sans); font-size: 14px; color: var(--muted); }
 .authors { color: var(--muted); font-size: 12px; line-height: 1.8; margin-top: 12px; }
 .authors strong { color: var(--ink); font-weight: 500; }
 .citation-count { text-align: right; padding-top: 25px; }
